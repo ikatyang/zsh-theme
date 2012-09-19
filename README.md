@@ -16,6 +16,7 @@ To test if your terminal and font support it, check that all the necessary chara
 
 - Success (✔) or failure (✘) of previous command
 - Hostname
+- Python virtualenv
 - Git status
   - Branch (⭠) or detached head (➦)
   - Current branch / SHA1 in detached head state
