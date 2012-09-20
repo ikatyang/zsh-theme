@@ -24,6 +24,8 @@ To test if your terminal and font support it, check that all the necessary chara
 - Working directory
 - Elevated (root) privileges (⚡)
 
+For correct show virtualenv name you should add `source ~/.zshrc` to ~/.virtualenvs/postactivate hook or run `echo 'source ~/.zshrc' >> ~/.virtualenvs/postactivate`
+
 ![Screenshot](http://i.imgur.com/aPmLi.png)
 
 ## Future Work
