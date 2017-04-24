@@ -1,16 +1,26 @@
+Forked from <https://gist.github.com/Ins1ne/3751033>
+
 # My modified fork of agnoster.zsh-theme
 
 A ZSH theme optimized for people who use:
 
 - Solarized
 - Git
-- Unicode-compatible fonts and terminals (I use iTerm2 + Menlo)
+- Unicode-compatible fonts and terminals
 
 # Compatibility
 
-To test if your terminal and font support it, check that all the necessary characters are supported by copying the following command to your terminal: `echo "⮀ ± ⭠ ➦ ✔ ✘ ⚡"`. The result should look like this:
+To test if your terminal and font support it, check that all the necessary characters are supported by copying the following command to your terminal: `echo " ±  ➦ ✔ ✘ ⚡"`. The result should look like this:
 
-![Character Example](http://cl.ly/content/image/2l3w443z363P/aHR0cDovL2YuY2wubHkvaXRlbXMvM2ozTjJpMDMzTzJNM0ozcDFjMjgvU2NyZWVuJTIwU2hvdCUyMDIwMTItMDktMTQlMjBhdCUyMDEyLjA2LjAyJTIwLnBuZw==)
+![Character Example](https://github.com/ikatyang/zsh-theme/blob/master/character-example.png)
+
+## Font
+
+[WenQuanYi Zen Hei Mono for Powerline](https://github.com/ikatyang/zsh-theme/blob/master/WenQuanYi-Zen-Hei-Mono-for-Powerline.ttf)
+- original font [WenQuanYi Zen Hei Mono](http://wenq.org/wqy2/index.cgi?Home)
+- mixed with 7 characters from [Powerline Fonts](https://github.com/powerline/fonts)
+
+  ![Powerline Characters](https://github.com/ikatyang/zsh-theme/blob/master/powerline-characters.png)
 
 ## What does it show?
 
@@ -26,14 +36,4 @@ To test if your terminal and font support it, check that all the necessary chara
 
 For correct show virtualenv name you should add `source ~/.zshrc` to ~/.virtualenvs/postactivate hook or run `echo 'source ~/.zshrc' >> ~/.virtualenvs/postactivate`
 
-![Screenshot](http://i.imgur.com/aPmLi.png)
-
-## Future Work
-
-I don't want to clutter it up too much, but I am toying with the idea of adding RVM (ruby version) and n (node.js version) display.
-
-It's currently hideously slow, especially inside a git repo. I guess it's not overly so for comparable themes, but it bugs me, and I'd love to hear ideas about how to improve the performance.
-
-Would be nice for the code to be a bit more sane and re-usable. Something to easily append a section with a given FG/BG, and add the correct opening and closing.
-
-Apparently the unicode characters don't display correctly on all systems. It would be nice to be able to say "this font will make it work, always". But what font?
+![Screenshot](https://github.com/ikatyang/zsh-theme/blob/master/screenshot.png)
