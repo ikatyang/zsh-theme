@@ -14,7 +14,7 @@ require Node.js v6 or above
 
 ```sh
 git clone https://github.com/ikatyang/zsh-theme.git
-cp ./zsh-theme/fonts/WenQuanYi-Zen-Hei-Mono-for-Powerline.ttf /Library/Fonts/
+cp ./zsh-theme/fonts/WenQuanYi-Mono-for-Powerline.ttf /Library/Fonts/
 cp ./zsh-theme/ikatyang.zsh-theme ~/.oh-my-zsh/themes/
 node ./zsh-theme/scripts/set-theme.js ikatyang
 rm -rf ./zsh-theme
@@ -41,7 +41,7 @@ To test if your terminal and font support it, check that all the necessary chara
 Require at least one Powerline font.
 
 - [Powerline Fonts](https://github.com/powerline/fonts)
-- [WenQuanYi Zen Hei Mono for Powerline](https://github.com/ikatyang/zsh-theme/blob/master/fonts/WenQuanYi-Zen-Hei-Mono-for-Powerline.ttf)
+- [WenQuanYi Mono for Powerline](https://github.com/ikatyang/zsh-theme/blob/master/fonts/WenQuanYi-Mono-for-Powerline.ttf)
   - original font [WenQuanYi Zen Hei Mono](http://wenq.org/wqy2/index.cgi?Home)
   - mixed with 7 characters from [Powerline Fonts](https://github.com/powerline/fonts)
 
