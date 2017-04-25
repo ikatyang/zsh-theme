@@ -8,7 +8,19 @@ A ZSH theme optimized for people who use:
 - Git
 - Unicode-compatible fonts and terminals
 
-## Installation
+## Quick Installation
+
+require Node.js v6 or above
+
+```sh
+git clone https://github.com/ikatyang/zsh-theme.git
+cp ./zsh-theme/fonts/WenQuanYi-Zen-Hei-Mono-for-Powerline.ttf /Library/Fonts/
+cp ./zsh-theme/ikatyang.zsh-theme ~/.oh-my-zsh/themes/
+node ./zsh-theme/scripts/set-theme.js ikatyang
+rm -rf ./zsh-theme
+```
+
+## Manual Installation
 
 1. Install [Powerline font](#powerline-font) if there is not.
 2. Download [ikatyang.zsh-theme](https://github.com/ikatyang/zsh-theme/blob/master/ikatyang.zsh-theme) to `~/.oh-my-zsh/themes`
